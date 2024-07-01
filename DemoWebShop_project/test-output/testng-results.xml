@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-01T20:12:38 IST" name="Default suite" finished-at="2024-07-01T20:12:53 IST" duration-ms="15734">
+    <groups>
+    </groups>
+    <test started-at="2024-07-01T20:12:38 IST" name="Default test" finished-at="2024-07-01T20:12:53 IST" duration-ms="15734">
+      <class name="com.tricentis.shoppingcart.TC_DWS_003_Test">
+        <test-method is-config="true" signature="configReports()[pri:0, instance:com.tricentis.shoppingcart.TC_DWS_003_Test@7e057f43]" started-at="2024-07-01T20:12:37 IST" name="configReports" finished-at="2024-07-01T20:12:38 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configReports -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tricentis.shoppingcart.TC_DWS_003_Test@7e057f43]" started-at="2024-07-01T20:12:38 IST" name="launchBrowser" finished-at="2024-07-01T20:12:46 IST" duration-ms="8020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.tricentis.shoppingcart.TC_DWS_003_Test@7e057f43]" started-at="2024-07-01T20:12:46 IST" name="login" finished-at="2024-07-01T20:12:47 IST" duration-ms="1518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tricentis.shoppingcart.TC_DWS_003_Test.addProductToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProductToCart()[pri:0, instance:com.tricentis.shoppingcart.TC_DWS_003_Test@7e057f43]" started-at="2024-07-01T20:12:47 IST" name="addProductToCart" finished-at="2024-07-01T20:12:52 IST" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.tricentis.shoppingcart.TC_DWS_003_Test@7e057f43]" started-at="2024-07-01T20:12:52 IST" name="logout" finished-at="2024-07-01T20:12:53 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tricentis.shoppingcart.TC_DWS_003_Test@7e057f43]" started-at="2024-07-01T20:12:53 IST" name="closeBrowser" finished-at="2024-07-01T20:12:53 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:com.tricentis.shoppingcart.TC_DWS_003_Test@7e057f43]" started-at="2024-07-01T20:12:53 IST" name="reportBackup" finished-at="2024-07-01T20:12:54 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBackup -->
+      </class> <!-- com.tricentis.shoppingcart.TC_DWS_003_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
